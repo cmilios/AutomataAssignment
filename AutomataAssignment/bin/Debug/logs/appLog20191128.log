@@ -1,0 +1,25 @@
+2019-11-28 12:38:16.696 +02:00 [DBG] starts!!
+2019-11-28 12:42:08.794 +02:00 [DBG] starts!!
+2019-11-28 12:42:25.280 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-28 12:42:28.466 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-28 12:42:28.467 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-28 12:42:28.467 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-28 12:42:28.467 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-28 12:42:31.161 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-28 12:42:34.733 +02:00 [DBG] number of transactions 6
+2019-11-28 12:42:37.888 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-28 12:42:37.888 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-28 12:42:37.888 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-28 12:42:37.888 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-28 12:42:37.888 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-28 12:42:37.888 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-28 12:42:37.888 +02:00 [DBG] File is read
+2019-11-28 12:42:40.348 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-28 12:42:40.348 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-28 12:42:40.348 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-28 12:42:40.348 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-28 12:42:40.348 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-28 12:42:40.348 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-28 12:42:40.348 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-28 12:42:40.348 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-28 12:42:40.348 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
