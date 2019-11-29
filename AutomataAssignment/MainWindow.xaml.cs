@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using Microsoft.Msagl.Core.Layout;
+using Microsoft.Win32;
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -30,6 +31,13 @@ namespace AutomataAssignment
         private List<State> States = new List<State>();
         private int NumberOfTransactions;
         private List<Transaction> Transactions = new List<Transaction>();
+        private State StartState;
+
+
+        System.Windows.Forms.Form form = new System.Windows.Forms.Form();
+        Microsoft.Msagl.GraphViewerGdi.GViewer viewer = new Microsoft.Msagl.GraphViewerGdi.GViewer();
+        Microsoft.Msagl.Drawing.Graph graph = new Microsoft.Msagl.Drawing.Graph("graph");
+
 
         public MainWindow()
         {
@@ -45,21 +53,27 @@ namespace AutomataAssignment
 
         private void deterministicMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            readFile(".da");
+            ReadFile(".da");
+            form = new System.Windows.Forms.Form();
+            viewer = new Microsoft.Msagl.GraphViewerGdi.GViewer();
+            graph = new Microsoft.Msagl.Drawing.Graph("graph");
+            DrawGraph();
         }
 
         private void nondeterministicMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            readFile(".nda");
+            ReadFile(".nda");
         }
 
         private void nondeterministicWithEMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            readFile(".ndae");
+            ReadFile(".ndae");
         }
 
-        private void readFile(string v)
+        private void ReadFile(string v)
         {
+            States = new List<State>();
+            Transactions = new List<Transaction>();
             openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Filter = $"da files (*{v})|*{v}|All files (*.*)|*.*";
             if (openFileDialog1.ShowDialog() == true)
@@ -156,6 +170,7 @@ namespace AutomataAssignment
                     {
                         Log.Debug(a.ToString());
                     }
+                    checkButton.IsEnabled = true;
                 }
                 catch (SecurityException ex)
                 {
@@ -164,6 +179,73 @@ namespace AutomataAssignment
                 }
             }
 
+        }
+
+        private void DrawGraph()
+        {
+            foreach(var trans in Transactions)
+            {
+                graph.AddEdge(trans.StartingPoint.Name, trans.CharInserted, trans.EndingPoint.Name);
+            }
+
+            StartState = States.Where(x => x.Start == true).FirstOrDefault();
+            var startnode = graph.FindNode(StartState.Name);
+            startnode.Attr.Shape = Microsoft.Msagl.Drawing.Shape.InvHouse;
+
+            var endstates = States.Where(x => x.Final == true).ToList();
+            var endnodes = new List<Microsoft.Msagl.Drawing.Node>();
+            foreach(State s in endstates)
+            {
+                var a = graph.FindNode(s.Name);
+                a.Attr.Shape = Microsoft.Msagl.Drawing.Shape.DoubleCircle;
+                endnodes.Add(a);
+            }
+            
+
+            viewer.Graph = graph;
+            viewer.Size = new System.Drawing.Size(500, 500);
+            viewer.ToolBarIsVisible = false;
+            form.Size = new System.Drawing.Size(500, 500);
+            form.SuspendLayout();
+
+            viewer.Dock = System.Windows.Forms.DockStyle.Fill;
+            form.Controls.Add(viewer);
+            form.ResumeLayout();
+            
+            form.Show();
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var Word = BaseTextBox.Text;
+            var CurrentState = new List<State>
+            {
+                StartState
+            };
+            foreach (var l in Word)
+            {
+                var letter = l.ToString();
+                var tran = Transactions.Where(x => x.StartingPoint == CurrentState[0] && letter == x.CharInserted).ToList();
+                if (tran != null)
+                {
+                    if (tran.Count() == 1)
+                    {
+                        CurrentState.Add(tran.FirstOrDefault().EndingPoint);
+                    }
+                    else
+                    {
+                        foreach(var t in tran)
+                        {
+                            CurrentState.Add(t.EndingPoint);
+                        }
+                        
+
+                    }
+                }
+                
+
+            }
         }
     }
 }

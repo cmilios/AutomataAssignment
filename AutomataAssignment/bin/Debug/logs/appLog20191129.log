@@ -1,0 +1,525 @@
+2019-11-29 10:01:04.403 +02:00 [DBG] starts!!
+2019-11-29 10:01:12.852 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:01:12.853 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:01:12.853 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:01:12.853 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:01:12.853 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:01:12.853 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:01:12.853 +02:00 [DBG] number of transactions 6
+2019-11-29 10:01:12.854 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:01:12.854 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:01:12.854 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:01:12.854 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:01:12.854 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:01:12.854 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:01:12.854 +02:00 [DBG] File is read
+2019-11-29 10:01:12.854 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:01:12.854 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:01:12.854 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:01:12.854 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:01:12.854 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:01:12.854 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:01:12.854 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:01:12.854 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:01:12.854 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:07:09.084 +02:00 [DBG] starts!!
+2019-11-29 10:07:14.014 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:07:14.014 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:07:14.014 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:07:14.014 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:07:14.014 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:07:14.014 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:07:14.014 +02:00 [DBG] number of transactions 6
+2019-11-29 10:07:14.015 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:07:14.015 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:07:14.015 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:07:14.015 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:07:14.015 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:07:14.015 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:07:14.015 +02:00 [DBG] File is read
+2019-11-29 10:07:14.015 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:07:14.016 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:07:14.016 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:07:14.016 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:07:14.016 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:07:14.016 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:07:14.016 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:07:14.016 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:07:14.016 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:10:20.876 +02:00 [DBG] starts!!
+2019-11-29 10:10:26.591 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:10:26.591 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:10:26.591 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:10:26.592 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:10:26.592 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:10:26.592 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:10:26.592 +02:00 [DBG] number of transactions 6
+2019-11-29 10:10:26.592 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:10:26.592 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:10:26.592 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:10:26.592 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:10:26.592 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:10:26.592 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:10:26.592 +02:00 [DBG] File is read
+2019-11-29 10:10:26.592 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:10:26.592 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:10:26.592 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:10:26.592 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:10:26.592 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:10:26.592 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:10:26.592 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:10:26.592 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:10:26.592 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:12:18.594 +02:00 [DBG] starts!!
+2019-11-29 10:12:26.335 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:12:26.335 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:12:26.335 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:12:26.336 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:12:26.336 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:12:26.336 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:12:26.336 +02:00 [DBG] number of transactions 6
+2019-11-29 10:12:26.337 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:12:26.337 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:12:26.337 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:12:26.337 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:12:26.337 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:12:26.337 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:12:26.337 +02:00 [DBG] File is read
+2019-11-29 10:12:26.337 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:12:26.337 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:12:26.337 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:12:26.337 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:12:26.337 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:12:26.337 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:12:26.337 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:12:26.337 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:12:26.337 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:15:51.022 +02:00 [DBG] starts!!
+2019-11-29 10:15:56.180 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:15:56.180 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:15:56.180 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:15:56.180 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:15:56.181 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:15:56.181 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:15:56.181 +02:00 [DBG] number of transactions 6
+2019-11-29 10:15:56.181 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:15:56.181 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:15:56.182 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:15:56.182 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:15:56.182 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:15:56.182 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:15:56.182 +02:00 [DBG] File is read
+2019-11-29 10:15:56.182 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:15:56.182 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:15:56.182 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:15:56.182 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:15:56.182 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:15:56.182 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:15:56.182 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:15:56.182 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:15:56.182 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:36:10.838 +02:00 [DBG] starts!!
+2019-11-29 10:36:16.515 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:36:16.515 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:36:16.515 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:36:16.515 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:36:16.515 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:36:16.515 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:36:16.515 +02:00 [DBG] number of transactions 6
+2019-11-29 10:36:16.516 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:36:16.516 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:36:16.516 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:36:16.516 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:36:16.516 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:36:16.516 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:36:16.516 +02:00 [DBG] File is read
+2019-11-29 10:36:16.516 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:36:16.516 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:36:16.516 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:36:16.516 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:36:16.516 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:36:16.516 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:36:16.516 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:36:16.516 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:36:16.516 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:49:29.077 +02:00 [DBG] starts!!
+2019-11-29 10:49:34.869 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:49:34.869 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:49:34.869 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:49:34.869 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:49:34.869 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:49:34.869 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:49:34.869 +02:00 [DBG] number of transactions 6
+2019-11-29 10:49:34.870 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:49:34.870 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:49:34.870 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:49:34.870 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:49:34.870 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:49:34.870 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:49:34.870 +02:00 [DBG] File is read
+2019-11-29 10:49:34.870 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:49:34.870 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:49:34.870 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:49:34.870 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:49:34.870 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:49:34.870 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:49:34.870 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:49:34.870 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:49:34.870 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.447 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:50:04.447 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:50:04.447 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:50:04.447 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:50:04.447 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:50:04.447 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:50:04.447 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:50:04.447 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:50:04.447 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:50:04.448 +02:00 [DBG] number of transactions 6
+2019-11-29 10:50:04.448 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.448 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.448 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.448 +02:00 [DBG] File is read
+2019-11-29 10:50:04.448 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:50:04.448 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:50:04.448 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:50:04.448 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:50:04.448 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:50:04.448 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:04.448 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:52.711 +02:00 [DBG] starts!!
+2019-11-29 10:50:57.899 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:50:57.899 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:50:57.899 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:50:57.899 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:50:57.899 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:50:57.899 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:50:57.899 +02:00 [DBG] number of transactions 6
+2019-11-29 10:50:57.900 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:50:57.900 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:57.900 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:57.900 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:57.900 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:57.900 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:57.900 +02:00 [DBG] File is read
+2019-11-29 10:50:57.900 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:50:57.900 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:50:57.900 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:50:57.900 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:50:57.900 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:57.900 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:57.900 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:50:57.900 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:50:57.900 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.605 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:51:33.605 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:51:33.605 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:51:33.606 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] number of transactions 6
+2019-11-29 10:51:33.606 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.606 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.606 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.606 +02:00 [DBG] File is read
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:51:33.606 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:28.021 +02:00 [DBG] starts!!
+2019-11-29 10:52:32.340 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:52:32.341 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:52:32.341 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:52:32.341 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:52:32.341 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:52:32.341 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:52:32.341 +02:00 [DBG] number of transactions 6
+2019-11-29 10:52:32.341 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:52:32.341 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:32.341 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:52:32.341 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:32.341 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:52:32.341 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:32.341 +02:00 [DBG] File is read
+2019-11-29 10:52:32.341 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:52:32.341 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:52:32.341 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:52:32.341 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:52:32.341 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:32.341 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:52:32.341 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:32.342 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:52:32.342 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:37.763 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:52:37.763 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:52:37.763 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:52:37.763 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:52:37.763 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:52:37.763 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:52:37.763 +02:00 [DBG] number of transactions 6
+2019-11-29 10:52:37.763 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:52:37.763 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:37.763 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:52:37.763 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:37.763 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:52:37.763 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:37.763 +02:00 [DBG] File is read
+2019-11-29 10:52:37.763 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:52:37.763 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:52:37.763 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:52:37.763 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:52:37.763 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:37.763 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:52:37.763 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:52:37.763 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:52:37.763 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:55:47.483 +02:00 [DBG] starts!!
+2019-11-29 10:55:52.573 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:55:52.573 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:55:52.573 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:55:52.573 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:55:52.573 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:55:52.573 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:55:52.573 +02:00 [DBG] number of transactions 6
+2019-11-29 10:55:52.574 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:55:52.574 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:55:52.574 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:55:52.574 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:55:52.574 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:55:52.574 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:55:52.574 +02:00 [DBG] File is read
+2019-11-29 10:55:52.574 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:55:52.574 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:55:52.574 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:55:52.574 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:55:52.574 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:55:52.574 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:55:52.574 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:55:52.574 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:55:52.574 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:56:07.943 +02:00 [DBG] starts!!
+2019-11-29 10:56:12.509 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 10:56:12.509 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 10:56:12.509 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 10:56:12.509 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:56:12.509 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:56:12.509 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:56:12.509 +02:00 [DBG] number of transactions 6
+2019-11-29 10:56:12.509 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:56:12.510 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:56:12.510 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:56:12.510 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:56:12.510 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:56:12.510 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 10:56:12.510 +02:00 [DBG] File is read
+2019-11-29 10:56:12.510 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 10:56:12.510 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 10:56:12.510 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 10:56:12.510 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 10:56:12.510 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 10:56:12.510 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 10:56:12.510 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 10:56:12.510 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 10:56:12.510 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 11:14:20.592 +02:00 [DBG] starts!!
+2019-11-29 11:14:25.639 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 11:14:25.640 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 11:14:25.640 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 11:14:25.640 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 11:14:25.640 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 11:14:25.640 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 11:14:25.640 +02:00 [DBG] number of transactions 6
+2019-11-29 11:14:25.640 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 11:14:25.640 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 11:14:25.640 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 11:14:25.640 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 11:14:25.640 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 11:14:25.640 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 11:14:25.640 +02:00 [DBG] File is read
+2019-11-29 11:14:25.640 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 11:14:25.640 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 11:14:25.640 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 11:14:25.640 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 11:14:25.640 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 11:14:25.640 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 11:14:25.640 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 11:14:25.640 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 11:14:25.640 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 11:15:28.256 +02:00 [DBG] starts!!
+2019-11-29 11:15:35.350 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 11:15:35.350 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 11:15:35.350 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 11:15:35.351 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 11:15:35.351 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 11:15:35.351 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 11:15:35.351 +02:00 [DBG] number of transactions 6
+2019-11-29 11:15:35.351 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 11:15:35.351 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 11:15:35.351 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 11:15:35.351 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 11:15:35.351 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 11:15:35.351 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 11:15:35.351 +02:00 [DBG] File is read
+2019-11-29 11:15:35.351 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 11:15:35.351 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 11:15:35.351 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 11:15:35.351 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 11:15:35.351 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 11:15:35.351 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 11:15:35.351 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 11:15:35.351 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 11:15:35.351 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 11:36:09.381 +02:00 [DBG] starts!!
+2019-11-29 11:41:12.607 +02:00 [DBG] starts!!
+2019-11-29 11:42:33.097 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 11:42:33.097 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 11:42:33.097 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 11:42:33.097 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 11:42:33.097 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 11:42:33.097 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 11:42:33.097 +02:00 [DBG] number of transactions 6
+2019-11-29 11:42:33.098 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 11:42:33.098 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 11:42:33.098 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 11:42:33.098 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 11:42:33.098 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 11:42:33.098 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 11:42:33.098 +02:00 [DBG] File is read
+2019-11-29 11:42:33.098 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 11:42:33.098 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 11:42:33.098 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 11:42:33.098 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 11:42:33.098 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 11:42:33.098 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 11:42:33.098 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 11:42:33.098 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 11:42:33.098 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 12:58:31.641 +02:00 [DBG] starts!!
+2019-11-29 12:58:39.207 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 12:58:39.207 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 12:58:39.207 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 12:58:39.208 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 12:58:39.208 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 12:58:39.208 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 12:58:39.208 +02:00 [DBG] number of transactions 6
+2019-11-29 12:58:39.208 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 12:58:39.208 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 12:58:39.208 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 12:58:39.208 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 12:58:39.208 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 12:58:39.208 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 12:58:39.208 +02:00 [DBG] File is read
+2019-11-29 12:58:39.208 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 12:58:39.208 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 12:58:39.208 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 12:58:39.208 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 12:58:39.208 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 12:58:39.208 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 12:58:39.208 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 12:58:39.208 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 12:58:39.208 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 13:01:31.260 +02:00 [DBG] starts!!
+2019-11-29 13:01:36.442 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 13:01:36.442 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 13:01:36.442 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 13:01:36.442 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 13:01:36.442 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 13:01:36.442 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 13:01:36.442 +02:00 [DBG] number of transactions 6
+2019-11-29 13:01:36.443 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 13:01:36.443 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 13:01:36.443 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 13:01:36.443 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 13:01:36.443 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 13:01:36.443 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 13:01:36.443 +02:00 [DBG] File is read
+2019-11-29 13:01:36.443 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 13:01:36.443 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 13:01:36.443 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 13:01:36.443 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 13:01:36.443 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 13:01:36.443 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 13:01:36.443 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 13:01:36.443 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 13:01:36.443 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 13:03:28.686 +02:00 [DBG] starts!!
+2019-11-29 13:03:33.968 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 13:03:33.968 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 13:03:33.968 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 13:03:33.968 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 13:03:33.968 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 13:03:33.968 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 13:03:33.968 +02:00 [DBG] number of transactions 6
+2019-11-29 13:03:33.968 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 13:03:33.968 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 13:03:33.968 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 13:03:33.968 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 13:03:33.968 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 13:03:33.969 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 13:03:33.969 +02:00 [DBG] File is read
+2019-11-29 13:03:33.969 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 13:03:33.969 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 13:03:33.969 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 13:03:33.969 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 13:03:33.969 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 13:03:33.969 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 13:03:33.969 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 13:03:33.969 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 13:03:33.969 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 13:05:50.459 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2019-11-29 13:05:50.459 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2019-11-29 13:05:50.459 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2019-11-29 13:05:50.460 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2019-11-29 13:05:50.460 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2019-11-29 13:05:50.460 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2019-11-29 13:05:50.460 +02:00 [DBG] number of transactions 6
+2019-11-29 13:05:50.460 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 13:05:50.460 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 13:05:50.460 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 13:05:50.460 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 13:05:50.460 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 13:05:50.460 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2019-11-29 13:05:50.460 +02:00 [DBG] File is read
+2019-11-29 13:05:50.460 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2019-11-29 13:05:50.460 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2019-11-29 13:05:50.460 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2019-11-29 13:05:50.460 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2019-11-29 13:05:50.460 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2019-11-29 13:05:50.460 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2019-11-29 13:05:50.460 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2019-11-29 13:05:50.460 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2019-11-29 13:05:50.460 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b

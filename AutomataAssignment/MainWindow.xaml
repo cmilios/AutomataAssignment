@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AutomataAssignment"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="200" Width="350">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -15,7 +15,13 @@
                     <MenuItem Header="Add non-deterministic with e transactions" Click="nondeterministicWithEMenuItem_Click"/>
                 </MenuItem>
             </MenuItem>
+            
         </Menu>
-        <TextBox AcceptsReturn="True" />
+        <Grid Margin="10 20 0 0">
+            <Label Content="Enter Word: " Height="28" HorizontalAlignment="Left" Name="BaseLabel" VerticalAlignment="Top" />
+            <TextBox Height="23" Margin="0,26,0,0" Name="BaseTextBox" VerticalAlignment="Top" Width="200" HorizontalAlignment="Left" />
+            <Button x:Name="checkButton" Content="Check" IsEnabled="False" HorizontalAlignment="Left" Margin="235,29,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+            <TextBox x:Name="theword" HorizontalAlignment="Left" Height="23" Margin="0,54,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        </Grid>
     </DockPanel>
 </Window>
