@@ -161,6 +161,11 @@ namespace AutomataAssignment
 
 
                     }
+                    foreach (var state in States)
+                    {
+                        state.AbleTransactions = Transactions.Where(x => x.StartingPoint.Id == state.Id).ToList();
+                        state.TransactionCameFrom = Transactions.Where(x => x.EndingPoint.Id == state.Id).ToList();
+                    }
                     Log.Debug("File is read");
                     foreach (var s in States)
                     {
@@ -219,33 +224,27 @@ namespace AutomataAssignment
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var Word = BaseTextBox.Text;
-            var CurrentState = new List<State>
-            {
-                StartState
-            };
+
+
+
+            var CurrentState = new List<State> { StartState };
+            var Destinations = new List<State>();
             foreach (var l in Word)
             {
                 var letter = l.ToString();
-                var tran = Transactions.Where(x => x.StartingPoint == CurrentState[0] && letter == x.CharInserted).ToList();
-                if (tran != null)
-                {
-                    if (tran.Count() == 1)
-                    {
-                        CurrentState.Add(tran.FirstOrDefault().EndingPoint);
-                    }
-                    else
-                    {
-                        foreach(var t in tran)
-                        {
-                            CurrentState.Add(t.EndingPoint);
-                        }
-                        
-
-                    }
-                }
                 
+                foreach(var state in CurrentState)
+                {
+                    Destinations.AddRange(state.Resolve(letter));
+                }
+                CurrentState = Destinations;
+                
+                
+                
+            
 
             }
         }
+
     }
 }
