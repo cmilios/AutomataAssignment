@@ -54,3 +54,4 @@ C:\Projects\AutomataAssignment\AutomataAssignment\obj\Debug\AutomataAssignment.c
 C:\Projects\AutomataAssignment\AutomataAssignment\obj\Debug\AutomataAssignment.csproj.CopyComplete
 C:\Projects\AutomataAssignment\AutomataAssignment\obj\Debug\AutomataAssignment.exe
 C:\Projects\AutomataAssignment\AutomataAssignment\obj\Debug\AutomataAssignment.pdb
+C:\Projects\AutomataAssignment\AutomataAssignment\obj\Debug\AutomataAssignment.csproj.CoreCompileInputs.cache

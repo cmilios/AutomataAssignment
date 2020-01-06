@@ -224,7 +224,7 @@ namespace AutomataAssignment
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var Word = BaseTextBox.Text;
-
+            var flag = false;
 
 
             var CurrentState = new List<State> { StartState };
@@ -237,13 +237,28 @@ namespace AutomataAssignment
                 {
                     Destinations.AddRange(state.Resolve(letter));
                 }
-                CurrentState = Destinations;
-                
-                
-                
-            
+                CurrentState = new List<State>(Destinations);
+                Destinations = new List<State>();
 
             }
+            foreach(var state in CurrentState)
+            {
+                if (state.Final)
+                {
+                    flag = true;
+                }
+            }
+            if (flag)
+            {
+                theword.Text = "true";
+            }
+            else
+            {
+                theword.Text = "false";
+            }
+            CurrentState = new List<State>();
+            Destinations = new List<State>();
+
         }
 
     }

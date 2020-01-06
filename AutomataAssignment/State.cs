@@ -28,7 +28,7 @@ namespace AutomataAssignment
             var possibleStates = new List<State>();
             if(AbleTransactions.Where(x=> x.CharInserted == letter).ToList().Any())
             {
-                foreach(var transaction in AbleTransactions.Where(x => x.CharInserted == letter).ToList())
+                foreach(var transaction in AbleTransactions.Where(x => x.CharInserted == letter && x.StartingPoint.Id == this.Id).ToList())
                 {
                     possibleStates.Add(transaction.EndingPoint);
                 }

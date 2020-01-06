@@ -1,0 +1,24 @@
+2020-01-06 22:25:56.181 +02:00 [DBG] starts!!
+2020-01-06 22:26:05.385 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: False
+2020-01-06 22:26:05.385 +02:00 [DBG] Id: 2,Name: 2,Final: False,Start: False
+2020-01-06 22:26:05.385 +02:00 [DBG] Id: 3,Name: 3,Final: False,Start: False
+2020-01-06 22:26:05.386 +02:00 [DBG] First stateId: 1,Name: 1,Final: False,Start: True
+2020-01-06 22:26:05.386 +02:00 [DBG] last stateId: 2,Name: 2,Final: True,Start: False
+2020-01-06 22:26:05.386 +02:00 [DBG] last stateId: 3,Name: 3,Final: True,Start: False
+2020-01-06 22:26:05.386 +02:00 [DBG] number of transactions 6
+2020-01-06 22:26:05.387 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2020-01-06 22:26:05.387 +02:00 [DBG] Transaction made: StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2020-01-06 22:26:05.387 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2020-01-06 22:26:05.387 +02:00 [DBG] Transaction made: StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2020-01-06 22:26:05.387 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2020-01-06 22:26:05.387 +02:00 [DBG] Transaction made: StartingPoint: 3,EndingPoint: 1,CharInserted: b
+2020-01-06 22:26:05.387 +02:00 [DBG] File is read
+2020-01-06 22:26:05.387 +02:00 [DBG] Id: 1,Name: 1,Final: False,Start: True
+2020-01-06 22:26:05.387 +02:00 [DBG] Id: 2,Name: 2,Final: True,Start: False
+2020-01-06 22:26:05.387 +02:00 [DBG] Id: 3,Name: 3,Final: True,Start: False
+2020-01-06 22:26:05.387 +02:00 [DBG] StartingPoint: 1,EndingPoint: 2,CharInserted: a
+2020-01-06 22:26:05.387 +02:00 [DBG] StartingPoint: 1,EndingPoint: 1,CharInserted: b
+2020-01-06 22:26:05.387 +02:00 [DBG] StartingPoint: 2,EndingPoint: 3,CharInserted: a
+2020-01-06 22:26:05.387 +02:00 [DBG] StartingPoint: 2,EndingPoint: 1,CharInserted: b
+2020-01-06 22:26:05.387 +02:00 [DBG] StartingPoint: 3,EndingPoint: 3,CharInserted: a
+2020-01-06 22:26:05.387 +02:00 [DBG] StartingPoint: 3,EndingPoint: 1,CharInserted: b
